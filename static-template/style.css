@@ -1,0 +1,245 @@
+body {
+  font-family: Georgia;
+  margin: 0;
+  background-color: #111;
+
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+h1.logo {
+  background-image: url(images/wintint.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 250px;
+  text-indent: -10000px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+header nav h2 {
+  text-indent: -10000px;
+  height: 0;
+  margin: 0;
+}
+
+header nav li {
+  float: left;
+  list-style-type: none;
+  margin: 10px 20px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+#main-banner,
+#main-banner img {
+  width: 100%;
+}
+
+#home-about {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+}
+
+#blog-one {
+  width: 55%;
+  height: 85%;
+}
+
+#home-about div {
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#window-tinting-needs-title {
+  width: 85%;
+}
+
+.button {
+  width: 25%;
+  height: 32px;
+  margin-top: 3%;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+#automotive {
+  background-image: url(images/automotive-window-tint-bg.png);
+  background-size: 100% 100%;
+  height: 75vh;
+  margin-top: 1%;
+  padding: 2% 0px 0px 0px;
+}
+
+#automotive div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 43%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#automotive-tint-title {
+  width: 70%;
+}
+
+#architectural {
+  background-image: url(images/architectural-window-tint-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 78vh;
+}
+
+#architectural div {
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+  height: 100%;
+  justify-content: center;
+}
+
+#architectural-window-tint-title {
+  width: 60%;
+}
+
+#paint-protection {
+  background-image: url(images/paint-protection-film-bg.png);
+  background-size: 65% 100%;
+  background-repeat: no-repeat;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#paint-protection div {
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+  height: 100%;
+  justify-content: center;
+}
+
+#paint-protection-film-title {
+  width: 70%;
+}
+
+#reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+#review-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 5%;
+}
+
+#reviews-title {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 30%;
+}
+
+.review-div {
+  background-image: url(images/review-div-bg.png);
+  background-size: 100% 75%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  padding: 2%;
+}
+
+.review-img {
+  height: 75%;
+}
+
+footer {
+  background: linear-gradient(to top, #390101ba, #320101d0),
+    url(images/footer-bg.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+}
+
+#footer-logo {
+  width: 200px;
+}
+
+#email-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+  width: 100vw;
+  height: 50px;
+  background-color: red;
+}
+
+#email-div button {
+  border: 1px solid #ffffffad;
+  border-radius: unset;
+  width: 12%;
+  height: 60%;
+  margin-top: 0px;
+}
+
+#footer-info {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#footer-info h2 {
+  color: red;
+}
+
+.socials-icons {
+  color: white;
+}
